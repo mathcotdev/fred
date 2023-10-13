@@ -93,7 +93,6 @@ body
     grid-area: corp;
     padding-left: 15px;
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
 }
 .as
 {
@@ -121,7 +120,7 @@ body
     text-align: center;
     margin: auto;
 }
-@media(max-width:900px)
+@media(max-width:1200px)
 {
     .bodyind
     {
@@ -131,7 +130,7 @@ body
                               "cot"
                               "pied";
         
-        font-size: 35px;
+        font-size: 70px;
         
                             
     }
@@ -142,7 +141,12 @@ body
     }
     section
     {
-        font-size: 35px;
+        font-size: 70px;
+    }
+    .sec,.secex1,.secexs2
+    {
+        grid-area: corp;
+        font-size: 70px;
     }
     
 }
