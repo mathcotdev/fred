@@ -1,0 +1,124 @@
+
+#Retour
+{
+    background-color: rgb(86, 86, 144);
+    border: black groove 1px;
+    color: rgb(189, 189, 189);
+}
+.taille
+{
+    border-right: groove black 5px;
+    font-size: 15px;
+}
+.centrer,#gauche,#droite,#Milieu
+{
+    text-align: center;
+}
+.ble
+{
+    color: white;
+}
+.jaune
+{
+    background-color: rgb(19, 153, 173);;
+}
+#etude,#M,#gauche,#droite
+{
+    text-align: center;
+}
+#th1,#inex
+{
+    border-right: 4px rgb(9, 9, 9) groove;
+}
+table
+{
+
+    border-collapse: collapse;
+    text-align: center;
+}
+th
+{
+    border-bottom: 4px rgb(9, 9, 9) groove;
+    padding-bottom: 0px;
+}
+
+.back
+{
+    background-color: rgb(86, 86, 144);
+    width: 100px;
+    border-radius: 5px;
+}
+.secex1,.secexs2
+{
+    padding-left: 15px;
+    font-size: 20px;  
+}
+.bodyind
+{
+    display: grid;
+    grid-template-columns: auto minmax(10%, 70%);
+    grid-template-areas:  "tete tete"
+                          "corp cot"
+                          "pied pied";
+}
+table
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    width: 600px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+
+.flexi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 100%;
+}
+body
+{
+    background-image: url("IMG_3577.JPG");
+}
+.fot
+{
+    grid-area: pied;
+    padding-top: 100px;
+    text-align: center;
+}
+.sec
+{
+    grid-area: corp;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.as
+{
+    grid-area: cot;
+}
+.hd1
+{
+    grid-area: tete;
+    font-size: 12px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#donnees
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.contacts
+{
+    width: 100px;
+    grid-template-rows: auto;
+    text-align: center;
+    margin: auto;
+}
+
