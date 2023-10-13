@@ -121,4 +121,29 @@ body
     text-align: center;
     margin: auto;
 }
+@media(max-width:900px)
+{
+    .bodyind
+    {
+        grid-template-columns: 1fr;
+        grid-template-areas:  "tete"
+                              "corp"
+                              "cot"
+                              "pied";
+        
+        font-size: 35px;
+        
+                            
+    }
+    footer
+    {
+        font-size: 15px;
+        color: black;
+    }
+    section
+    {
+        font-size: 35px;
+    }
+    
+}
 
