@@ -194,6 +194,10 @@ else
     if(a<0)
     {
         explik = "Pour l'étude de signe donc à droite de "+ X2 + " On aura le signe - et à gauche de "+ X1+ " On aura le signe -"
+        if(Delta < 0 )
+        {
+            explik = "Pour l'étude de signe on mettra donc le signe - partout"
+        }
         let gauche = document.getElementById("gauche").innerHTML = "-"
         let droite = document.getElementById("droite").innerHTML = "-" 
         if(s == "true")
@@ -233,6 +237,10 @@ else
     else
     {
         explik = "Pour l'étude de signe donc à droite de "+ X2 + " On aura le signe + et à gauche de "+ X1+ " On aura le signe +"
+        if(Delta < 0 )
+        {
+            explik = "Pour l'étude de signe on mettra donc le signe + partout"
+        }
         let gauche = document.getElementById("gauche").innerHTML = "+"
         let droite = document.getElementById("droite").innerHTML = "+"
         if(s == "true")
